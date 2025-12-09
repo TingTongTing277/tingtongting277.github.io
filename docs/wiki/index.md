@@ -1,15 +1,31 @@
 ---
 pageLayout: home
 config:
-    - type: hero
+  - type: hero
+    hero:
       name: 听筒百科
-      description: 面向21世纪先进技术的百科不全
-    - type: features
-      features:
-        - title: 人工智能
-          details: 全面浅析人工智能领域各项技术
-        - title: 机器人
-          details: 从电机到人型机器人完全DIY指南
-        - title: 计算机技术
-          details: 从零开始成为TI大佬
+      text: 面向21世纪先进技术的百科不全
+  - type: features
+    features:
+      - title: 计算机视觉
+        details: OpenCV、VisionSLAM
+        link: /wiki/Vision/
+      - title: 自动控制
+        details: Lyapunov、PID、LQR、MPC
+        link: /wiki/Controller/
+      - title: 电子设计
+        details: MEC、MEI
+        link: /wiki/Electronic/
+      - title: Linux
+        details: Shell、Socket、ICP
+        link: /wiki/Linux/
+      - title: IT工具
+        details: Vim、Git
+        link: /wiki/Tools/
+      - title: 网络与网页
+        details: Web、Searcher
+        link: /wiki/Web/
+title: tingtong wiki
+createTime: 2025/12/01 22:50:16
+permalink: /wiki/yrpvjq29/
 ---

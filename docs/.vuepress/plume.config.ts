@@ -3,11 +3,10 @@ import collections from './collections'
 import navbar from './navbar'
 
 export default defineThemeConfig({
-    logo: '/profile.jpg',
 
     // 个人简介
     profile: {
-        avatar: 'profile.jpg',
+        avatar: '/avatar.png',
         name: '听筒听筒听',
         description: '做些关于未来的工作',
         circle: true,
